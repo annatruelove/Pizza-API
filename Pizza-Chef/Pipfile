@@ -1,0 +1,27 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+flask = "*"
+jsonify = "*"
+requests = "*"
+flask-sqlalchemy = "*"
+connexion = "*"
+jsonschema = "*"
+gunicorn = "*"
+# psycopg2 = "*"
+pytest = "<=4.*"
+sqlalchemy = "*"
+swagger-ui-bundle = "*"
+pytest_mock = "*"
+mock = "*"
+webtest = "*"
+psycopg2-binary = "*"
+
+
+[requires]
+python_version = "3.7"
