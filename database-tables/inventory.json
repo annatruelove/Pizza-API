@@ -1,0 +1,22 @@
+[
+  {
+    "item": "Cheese",
+    "count": 89,
+    "id": 0
+  },
+  {
+    "item": "Pepperoni",
+    "count": 0,
+    "id": 1
+  },
+  {
+    "item": "Sausage",
+    "count": 5,
+    "id": 2
+  },
+  {
+    "item": "Sauce",
+    "count": 89,
+    "id": 3
+  }
+]
