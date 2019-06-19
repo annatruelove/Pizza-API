@@ -4,8 +4,11 @@ from flask_sqlalchemy import SQLAlchemy
 
 my_app = Flask(__name__)
 
-db = SQLAlchemy(my_app)
+# Set IP address to current IP
 chef_ip = '10.7.160.29'
+
+# Connect database to API
+db = SQLAlchemy(my_app)
 my_app.config['SQLALCHEMY_DATABASE_URI'] = 'postgres://dev:dev@' + chef_ip + '/postgres'
 
 base_url = "/pizza_chef"
